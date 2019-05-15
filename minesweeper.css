@@ -17,7 +17,9 @@ body {
 }
 
 #message {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: Purple;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .board {
@@ -31,7 +33,7 @@ body {
   width: 75px;
   height: 75px;
   border: 1px #ccc dotted;
-  border-radius: 10%;
+  border-radius: 50%;
   background-color: white;
   margin: 3px;
   display: flex;
@@ -44,15 +46,15 @@ body {
 }
 
 div.mine, div.mine:hover {
-  background: no-repeat center/60% url("images/bomb.svg") crimson;
+  background: no-repeat center/150% url("images/thief.gif") white;
 }
 
 div.hidden {
-  background: #eee;
+  background: black;
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: yellow;
 }
 
 div.marked, div.marked:hover {
